@@ -1,0 +1,71 @@
+.divli {
+  justify-content: flex-end;
+}
+.btn {
+  border-radius: 18px;
+}
+ul li a {
+  margin: 0.2cm;
+}
+ul li a:hover {
+  cursor: default;
+}
+.navbar {
+  background: url("./cool-background-2.png");
+}
+.header {
+  margin-top: 3em;
+}
+.navbar-brand {
+  color: brown;
+}
+.heading {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 70px;
+}
+.hbtn {
+  background-color: indigo;
+  color: antiquewhite;
+}
+.hbtn:hover {
+  color: antiquewhite;
+}
+
+.hero {
+  padding: 2em 0;
+}
+.image {
+  width: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  filter: grayscale(20%);
+}
+.brand:hover {
+  cursor: default;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+  .para {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header {
+    margin-top: 1em;
+  }
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .hero-details {
+    margin-top: 0.5cm;
+  }
+  .hbtn {
+    margin-bottom: 0.23cm;
+  }
+  ul {
+    justify-content: center;
+    align-items: center;
+  }
+}
